@@ -6,7 +6,7 @@ object Main extends App {
   var data = for {
     line <- bufferedSource.getLines().drop(1).toList
     values = line.split(",").map(_.trim).map(_.replace("\"", ""))
-    data = Entry(
+    data = CrashInfo(
       values(0),
       values(1),
       values(2),

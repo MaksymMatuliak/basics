@@ -1,4 +1,4 @@
-case class Entry(
+case class CrashInfo(
                   reportNumber: String,
                   reportSeqNo: String,
                   dotNumber: String,
@@ -8,13 +8,13 @@ case class Entry(
                   injuries: String,
                   towAway: String,
                   hazmatReleased: String,
-                  trafficwayDesc: String,
+                  trafficWayDesc: String,
                   accessControlDesc: String,
                   roadSurfaceConditionDesc: String,
                   weatherConditionDesc: String,
                   lightConditionDesc: String,
-                  vehicleIdNUMBER: String,
-                  vehicleLicenseNUMBER: String,
+                  vehicleIdNumber: String,
+                  vehicleLicenseNumber: String,
                   vehicleLicenseState: String,
                   severityWeight: String,
                   timeWeight: String,
